@@ -5,7 +5,7 @@ import 'package:intl/intl.dart';
 ///
 extension MyDate on DateTime {
   String stringDate() {
-    return DateFormat('dd.MM.yyyy').format(this);
+    return DateFormat('dd.MM.yyyy HH:mm').format(this);
     //return DateFormat('dd.MM.yyyy HH:mm:ss').format(this);
   }
 }
